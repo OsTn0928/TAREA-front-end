@@ -7,8 +7,9 @@
     <title>KFC</title>
 </head>
 
+<body>
 <header>
-    <img src="/img/KCF.png" id="kfc-logo">
+    <img src="img/KCF.png" id="kfc-logo">
 
     <div class="div-list">
         <li class="list1">
@@ -19,40 +20,44 @@
         </li>
     </div>
     
-
     <div class="search-container">
         <input type="text" placeholder="Buscar..." class="search-input">
     </div>
 
-
     <div class="contain-master">
-
         <div class="menu">
             <div class="menu-item">
-                <img src="/img/cupon.PNG" alt="Cupones">
-                <span>Cupones</span>
+                <img src="img/cupon.PNG" alt="Cupones" id="cupones">
+                <span id="coupons">Cupones</span>
             </div>
             <div class="menu-item">
-                <img src="/img/perfil.PNG" alt="Perfil">
-                <span>Perfil</span>
+                <img src="img/perfil.PNG" alt="Perfil" id="perfil">
+                <span id="profile">Perfil</span>
             </div>
             <button class="ingresar-btn">Ingresar</button>
             <div class="menu-item">
-                <img src="/img/bolsa.PNG" alt="Bolsa">
+                <img src="img/bolsa.PNG" alt="Bolsa" id="bolsa">
             </div>
         </div>
-        
-
     </div>
 </header>
 
-<body>
-    <nav class="nav-location">
-        <div class="div-location">
-            <a id="location">Igresa tu ubicacion</a>
-        </div>
-    </nav>
-    <img src="https://images.getduna.com/c6a9073b-9a42-4886-b0fc-1033bbd6a60c/yt3g1pkyvfo78ygbm4g72nblanya.webp?format=webp" id="">
-    
+<div class="location-button-container">
+    <button class="location-button">INGRESA TU UBICACIÓN <span class="arrow">&#9662;</span></button>
+</div>
+
+<div class="carousel-container">
+    <img src="https://images.getduna.com/c6a9073b-9a42-4886-b0fc-1033bbd6a60c/yt3g1pkyvfo78ygbm4g72nblanya.webp?format=webp" id="kfc-img">
+
+    <button class="carousel-arrow left-arrow">&#10094;</button>
+    <button class="carousel-arrow right-arrow">&#10095;</button>
+
+    <div class="carousel-buttons">
+        <span class="carousel-dot active"></span>
+        <span class="carousel-dot"></span>
+        <span class="carousel-dot"></span>
+        <span class="carousel-dot"></span>
+    </div>
+</div>
 </body>
 </html>
