@@ -349,3 +349,71 @@ header {
     transform: scale(1.05);
 }
 
+.masterFoot {
+    background-color: #F8F7F5;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.masterCol {
+    flex: 1;
+    margin-right: 40px;
+    min-width: 200px;
+    flex-wrap: wrap;
+}
+
+.masterCol:last-child {
+    margin-right: 0;
+}
+
+.masterCol h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.masterCol p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.masterIcons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.masterIcons a {
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.masterIcon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.masterApps img {
+    width: 120px;
+    margin-right: 10px;
+}
+
+.masterApps img:last-child {
+    margin-right: 0;
+}
+
+.masterFootBottom {
+    font-size: 12px;
+    color: #666;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.masterFootBottom span {
+    display: block;
+}
+
