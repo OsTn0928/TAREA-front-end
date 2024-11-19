@@ -35,13 +35,12 @@ header {
     color: black;
     font-size: 2.2dvh;
     transition: 0.8s;
-
 }
 
 .list1 a:hover {
-    color: #000;
+    color: #e4002b;
     transition: color 1s;
-    font-size: 3dvh;
+    font-size: 2.3dvh;
     transition: 0.8s;
 }
 
@@ -145,6 +144,13 @@ header {
     height: 6dvh;
     text-align: center;
     margin-left: 4dvh;
+    transition: 0.8s;
+}
+
+.ingresar-btn:hover {
+    background-color: #e4002b;
+    color: #fff;
+    font-size: 2.2dvh;
 }
 
 .menu-item img[alt="Bolsa"] {
@@ -289,7 +295,11 @@ header {
     font-size: 16px; 
     font-weight: bold;
     cursor: pointer;
-    transition: background-color 1s ease;
+    transition: 400ms;
+}
+
+.boton-menu button:hover {
+    background-color: #81001e;
 }
 
 /* Contenedor del menú */
